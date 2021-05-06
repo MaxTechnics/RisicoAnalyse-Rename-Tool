@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945B021C263F7BD1004ED9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B021B263F7BD1004ED9EC /* AppDelegate.swift */; };
+		945B021E263F7BD2004ED9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945B021D263F7BD2004ED9EC /* Assets.xcassets */; };
+		945B022D263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B022C263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolTests.swift */; };
+		945B0238263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B0237263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolUITests.swift */; };
+		945B0257263FCA4E004ED9EC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 945B0256263FCA4E004ED9EC /* test.jpg */; };
+		945B025F263FD762004ED9EC /* Counters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B025E263FD762004ED9EC /* Counters.swift */; };
+		945B026F263FE757004ED9EC /* coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B026E263FE757004ED9EC /* coffee.swift */; };
+		945B0282263FF1FE004ED9EC /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B0281263FF1FE004ED9EC /* SoundController.swift */; };
+		945B0287263FF405004ED9EC /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 945B0286263FF405004ED9EC /* Sounds */; };
+		945B02A026400109004ED9EC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B029F26400109004ED9EC /* ImageView.swift */; };
+		945B02A5264053F5004ED9EC /* FolderSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B02A4264053F5004ED9EC /* FolderSelector.swift */; };
+		945B02AA2640687B004ED9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B02A92640687B004ED9EC /* ViewController.swift */; };
+		945B02AF26407419004ED9EC /* CounterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945B02AE26407419004ED9EC /* CounterWindow.xib */; };
+		945B02CA26417437004ED9EC /* CounterWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B02C926417437004ED9EC /* CounterWindowManager.swift */; };
+		945B037C26431035004ED9EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945B037B26431035004ED9EC /* MainMenu.xib */; };
+		945B0385264407DE004ED9EC /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B0384264407DD004ED9EC /* Spinner.swift */; };
+		945B039626440E3C004ED9EC /* nada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 945B039526440E3B004ED9EC /* nada.jpg */; };
+		945B039E2644146D004ED9EC /* ProgressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945B039D2644146D004ED9EC /* ProgressManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		945B0229263F7BD2004ED9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945B0210263F7BD1004ED9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945B0217263F7BD1004ED9EC;
+			remoteInfo = "RisicoAnalyse Rename Tool";
+		};
+		945B0234263F7BD2004ED9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945B0210263F7BD1004ED9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945B0217263F7BD1004ED9EC;
+			remoteInfo = "RisicoAnalyse Rename Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945B0218263F7BD1004ED9EC /* RisicoAnalyse Rename Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RisicoAnalyse Rename Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945B021B263F7BD1004ED9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945B021D263F7BD2004ED9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		945B0222263F7BD2004ED9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945B0223263F7BD2004ED9EC /* RisicoAnalyse_Rename_Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RisicoAnalyse_Rename_Tool.entitlements; sourceTree = "<group>"; };
+		945B0228263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RisicoAnalyse Rename ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945B022C263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisicoAnalyse_Rename_ToolTests.swift; sourceTree = "<group>"; };
+		945B022E263F7BD2004ED9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945B0233263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RisicoAnalyse Rename ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945B0237263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisicoAnalyse_Rename_ToolUITests.swift; sourceTree = "<group>"; };
+		945B0239263F7BD2004ED9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945B0256263FCA4E004ED9EC /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		945B025E263FD762004ED9EC /* Counters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counters.swift; sourceTree = "<group>"; };
+		945B026E263FE757004ED9EC /* coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffee.swift; sourceTree = "<group>"; };
+		945B0281263FF1FE004ED9EC /* SoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
+		945B0286263FF405004ED9EC /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		945B029F26400109004ED9EC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		945B02A4264053F5004ED9EC /* FolderSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSelector.swift; sourceTree = "<group>"; };
+		945B02A92640687B004ED9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		945B02AE26407419004ED9EC /* CounterWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterWindow.xib; sourceTree = "<group>"; };
+		945B02C926417437004ED9EC /* CounterWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterWindowManager.swift; sourceTree = "<group>"; };
+		945B037B26431035004ED9EC /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		945B0384264407DD004ED9EC /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		945B039526440E3B004ED9EC /* nada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nada.jpg; sourceTree = "<group>"; };
+		945B039D2644146D004ED9EC /* ProgressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945B0215263F7BD1004ED9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B0225263F7BD2004ED9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B0230263F7BD2004ED9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945B020F263F7BD1004ED9EC = {
+			isa = PBXGroup;
+			children = (
+				945B021A263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */,
+				945B022B263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests */,
+				945B0236263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests */,
+				945B0219263F7BD1004ED9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945B0219263F7BD1004ED9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945B0218263F7BD1004ED9EC /* RisicoAnalyse Rename Tool.app */,
+				945B0228263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests.xctest */,
+				945B0233263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945B021A263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */ = {
+			isa = PBXGroup;
+			children = (
+				945B021B263F7BD1004ED9EC /* AppDelegate.swift */,
+				945B021D263F7BD2004ED9EC /* Assets.xcassets */,
+				945B037B26431035004ED9EC /* MainMenu.xib */,
+				945B02C926417437004ED9EC /* CounterWindowManager.swift */,
+				945B02AE26407419004ED9EC /* CounterWindow.xib */,
+				945B0256263FCA4E004ED9EC /* test.jpg */,
+				945B029F26400109004ED9EC /* ImageView.swift */,
+				945B0222263F7BD2004ED9EC /* Info.plist */,
+				945B0223263F7BD2004ED9EC /* RisicoAnalyse_Rename_Tool.entitlements */,
+				945B025E263FD762004ED9EC /* Counters.swift */,
+				945B02A4264053F5004ED9EC /* FolderSelector.swift */,
+				945B0384264407DD004ED9EC /* Spinner.swift */,
+				945B039D2644146D004ED9EC /* ProgressManager.swift */,
+				945B039526440E3B004ED9EC /* nada.jpg */,
+				945B02A92640687B004ED9EC /* ViewController.swift */,
+				945B0281263FF1FE004ED9EC /* SoundController.swift */,
+				945B026E263FE757004ED9EC /* coffee.swift */,
+				945B0286263FF405004ED9EC /* Sounds */,
+			);
+			path = "RisicoAnalyse Rename Tool";
+			sourceTree = "<group>";
+		};
+		945B022B263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				945B022C263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolTests.swift */,
+				945B022E263F7BD2004ED9EC /* Info.plist */,
+			);
+			path = "RisicoAnalyse Rename ToolTests";
+			sourceTree = "<group>";
+		};
+		945B0236263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				945B0237263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolUITests.swift */,
+				945B0239263F7BD2004ED9EC /* Info.plist */,
+			);
+			path = "RisicoAnalyse Rename ToolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945B0217263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945B023C263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename Tool" */;
+			buildPhases = (
+				945B0214263F7BD1004ED9EC /* Sources */,
+				945B0215263F7BD1004ED9EC /* Frameworks */,
+				945B0216263F7BD1004ED9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RisicoAnalyse Rename Tool";
+			productName = "RisicoAnalyse Rename Tool";
+			productReference = 945B0218263F7BD1004ED9EC /* RisicoAnalyse Rename Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945B0227263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945B023F263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename ToolTests" */;
+			buildPhases = (
+				945B0224263F7BD2004ED9EC /* Sources */,
+				945B0225263F7BD2004ED9EC /* Frameworks */,
+				945B0226263F7BD2004ED9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945B022A263F7BD2004ED9EC /* PBXTargetDependency */,
+			);
+			name = "RisicoAnalyse Rename ToolTests";
+			productName = "RisicoAnalyse Rename ToolTests";
+			productReference = 945B0228263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		945B0232263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945B0242263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename ToolUITests" */;
+			buildPhases = (
+				945B022F263F7BD2004ED9EC /* Sources */,
+				945B0230263F7BD2004ED9EC /* Frameworks */,
+				945B0231263F7BD2004ED9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945B0235263F7BD2004ED9EC /* PBXTargetDependency */,
+			);
+			name = "RisicoAnalyse Rename ToolUITests";
+			productName = "RisicoAnalyse Rename ToolUITests";
+			productReference = 945B0233263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945B0210263F7BD1004ED9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					945B0217263F7BD1004ED9EC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					945B0227263F7BD2004ED9EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 945B0217263F7BD1004ED9EC;
+					};
+					945B0232263F7BD2004ED9EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 945B0217263F7BD1004ED9EC;
+					};
+				};
+			};
+			buildConfigurationList = 945B0213263F7BD1004ED9EC /* Build configuration list for PBXProject "RisicoAnalyse Rename Tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945B020F263F7BD1004ED9EC;
+			productRefGroup = 945B0219263F7BD1004ED9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945B0217263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */,
+				945B0227263F7BD2004ED9EC /* RisicoAnalyse Rename ToolTests */,
+				945B0232263F7BD2004ED9EC /* RisicoAnalyse Rename ToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945B0216263F7BD1004ED9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945B021E263F7BD2004ED9EC /* Assets.xcassets in Resources */,
+				945B039626440E3C004ED9EC /* nada.jpg in Resources */,
+				945B037C26431035004ED9EC /* MainMenu.xib in Resources */,
+				945B0287263FF405004ED9EC /* Sounds in Resources */,
+				945B0257263FCA4E004ED9EC /* test.jpg in Resources */,
+				945B02AF26407419004ED9EC /* CounterWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B0226263F7BD2004ED9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B0231263F7BD2004ED9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945B0214263F7BD1004ED9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945B0385264407DE004ED9EC /* Spinner.swift in Sources */,
+				945B02AA2640687B004ED9EC /* ViewController.swift in Sources */,
+				945B02A026400109004ED9EC /* ImageView.swift in Sources */,
+				945B025F263FD762004ED9EC /* Counters.swift in Sources */,
+				945B0282263FF1FE004ED9EC /* SoundController.swift in Sources */,
+				945B02CA26417437004ED9EC /* CounterWindowManager.swift in Sources */,
+				945B021C263F7BD1004ED9EC /* AppDelegate.swift in Sources */,
+				945B039E2644146D004ED9EC /* ProgressManager.swift in Sources */,
+				945B02A5264053F5004ED9EC /* FolderSelector.swift in Sources */,
+				945B026F263FE757004ED9EC /* coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B0224263F7BD2004ED9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945B022D263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945B022F263F7BD2004ED9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945B0238263F7BD2004ED9EC /* RisicoAnalyse_Rename_ToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945B022A263F7BD2004ED9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 945B0217263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */;
+			targetProxy = 945B0229263F7BD2004ED9EC /* PBXContainerItemProxy */;
+		};
+		945B0235263F7BD2004ED9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 945B0217263F7BD1004ED9EC /* RisicoAnalyse Rename Tool */;
+			targetProxy = 945B0234263F7BD2004ED9EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		945B023A263F7BD2004ED9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		945B023B263F7BD2004ED9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		945B023D263F7BD2004ED9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RisicoAnalyse Rename Tool/RisicoAnalyse_Rename_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		945B023E263F7BD2004ED9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RisicoAnalyse Rename Tool/RisicoAnalyse_Rename_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		945B0240263F7BD2004ED9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RisicoAnalyse Rename Tool.app/Contents/MacOS/RisicoAnalyse Rename Tool";
+			};
+			name = Debug;
+		};
+		945B0241263F7BD2004ED9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RisicoAnalyse Rename Tool.app/Contents/MacOS/RisicoAnalyse Rename Tool";
+			};
+			name = Release;
+		};
+		945B0243263F7BD2004ED9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RisicoAnalyse Rename Tool";
+			};
+			name = Debug;
+		};
+		945B0244263F7BD2004ED9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RisicoAnalyse Rename ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maximcoppieters.RisicoAnalyse-Rename-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RisicoAnalyse Rename Tool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945B0213263F7BD1004ED9EC /* Build configuration list for PBXProject "RisicoAnalyse Rename Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945B023A263F7BD2004ED9EC /* Debug */,
+				945B023B263F7BD2004ED9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945B023C263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945B023D263F7BD2004ED9EC /* Debug */,
+				945B023E263F7BD2004ED9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945B023F263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945B0240263F7BD2004ED9EC /* Debug */,
+				945B0241263F7BD2004ED9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945B0242263F7BD2004ED9EC /* Build configuration list for PBXNativeTarget "RisicoAnalyse Rename ToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945B0243263F7BD2004ED9EC /* Debug */,
+				945B0244263F7BD2004ED9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945B0210263F7BD1004ED9EC /* Project object */;
+}
